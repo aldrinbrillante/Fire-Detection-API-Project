@@ -2,6 +2,8 @@ from fastapi import FastAPI, File, UploadFile
 from classifier.predictor import ImagePredictor
 from app.settings import API_SETTINGS
 
+#commit save
+
 # A: init API
 app = FastAPI(
     title=API_SETTINGS["title"],
